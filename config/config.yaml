@@ -1,0 +1,11 @@
+defaults:
+  - classifier : classifier.yaml
+  - _self_
+
+general:
+  save_dir: logs
+  project_name: SentimentClassification
+
+hydra:
+  run:
+    dir: ./logs
